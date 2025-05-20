@@ -1,39 +1,44 @@
 package com.LimChanHyeok.LikeLionWeek1.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import com.LimChanHyeok.LikeLionWeek1.dto.HelloDto;
+import com.LimChanHyeok.LikeLionWeek1.service.HelloService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @RestController
+@RequiredArgsConstructor
 public class HelloController {
-    @GetMapping("/hello")
+    private final HelloService helloService;
+
+    @PostMapping("/hello")
     public String hello() {
         return "hello";
     }
     private final List<User> userList = new ArrayList<>();
 
-    @GetMapping("/test")
-    public String addUser(@RequestParam String name, @RequestParam int age) {
-        User user = new User(name, age);
-        userList.add(user);
-        return "사용자 추가 완료: " + name + ", " + age;
+    @PostMapping("/test")
+    public HelloDto addUser(@RequestBody HelloDto helloDto) {
+        return helloService.addUser(helloDto);
     }
 
-    @GetMapping("/test/{name}")
-    public String getUserAge(@PathVariable String name) {
+    @PostMapping("/test/{name}")
+    public HelloDto getUserAge(@PathVariable String name) {
         for (User user : userList) {
             if (user.getName().equals(name)) {
-                return String.valueOf(user.getAge());
+                return getUserAge(name);
             }
         }
-        return ""; // 사용자를 찾을 수 없을 때는 빈 문자열을 반환
+        return null;
+    }
+    @GetMapping("/test")
+    public List<HelloDto> getUserList() {
+        return helloService.getUserList();
     }
 
-    static class User {
+    static public class User {
         private String name;
         private int age;
 

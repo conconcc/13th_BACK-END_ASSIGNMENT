@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.4.4'
+    id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa' // JPA (DB 연결 + ORM 지원)
+    implementation 'org.springframework.boot:spring-boot-starter-web' // 웹 서버, REST API 만들 때 필요
+    implementation 'mysql:mysql-connector-java:8.0.29' // 최신 MySQL 드라이버 버전으로 업데이트
+    compileOnly 'org.projectlombok:lombok' // 롬복 (코드 자동 생성용) - 컴파일할 때만 필요
+    annotationProcessor 'org.projectlombok:lombok' // 롬복 어노테이션 처리기 (컴파일 시 코드 생성)
+    testImplementation 'org.springframework.boot:spring-boot-starter-test' // 테스트 기능 (단위 테스트, 통합 테스트)
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher' // JUnit 테스트 실행기 (테스트할 때 필요)
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6b52f6d-fb5a-45b8-9241-26285fee01a3" name="Changes" comment="BE week2 hw">
+      <change afterPath="$PROJECT_DIR$/../week1/LikeLionWeek1/src/main/java/kkt9253/likelionweek1/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/LikeLionWeek1/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/LikeLionWeek1/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/LikeLionWeek1/src/main/java/kkt9253/likelionweek1/controller/testController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/LikeLionWeek1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/LikeLionWeek1/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LikeLionWeek2/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LikeLionWeek2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LikeLionWeek2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LikeLionWeek2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LikeLionWeek2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LikeLionWeek2/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/LikeLionWeek2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/LikeLionWeek2/LikeLionWeek2">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/LikeLionWeek2">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/LikeLionWeek2/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LikeLionWeek2" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kkt9253"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kkt9253/13th_BACK-END_ASSIGNMENT.git",
+    "accountId": "422993d7-b6e0-4d43-9100-2394aefbfba5"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2vlfWEHxPZRAZQJoH7E43CbCLyG" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build LikeLionWeek2.executor": "Run",
+    "Gradle.LikeLionWeek2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.LikeLionWeek2Application.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kkt/Desktop/spring/likeLion_git/kimkyeongtak/week2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="LikeLionWeek2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="LikeLionWeek2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kkt9253.likelionweek2.LikeLionWeek2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6b52f6d-fb5a-45b8-9241-26285fee01a3" name="Changes" comment="" />
+      <created>1744724610681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744724610681</updated>
+      <workItem from="1744724611736" duration="1583000" />
+    </task>
+    <task id="LOCAL-00001" summary="BE week2 hw">
+      <option name="closed" value="true" />
+      <created>1744725998832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744725998832</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BE week2 hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="BE week2 hw" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
